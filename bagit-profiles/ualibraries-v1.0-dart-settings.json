@@ -1,0 +1,323 @@
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "appSettings": [],
+  "bagItProfiles": [
+    {
+      "id": "8dd58a2d-551f-4cf6-9392-8476c7193950",
+      "name": "University of Arizona Libraries",
+      "description": "Imported from https://example.com/profile.json",
+      "acceptBagItVersion": [
+        "0.97",
+        "1.0"
+      ],
+      "acceptSerialization": [
+        "application/tar"
+      ],
+      "allowFetchTxt": true,
+      "bagItProfileInfo": {
+        "bagItProfileIdentifier": "https://example.com/profile.json",
+        "bagItProfileVersion": "",
+        "contactEmail": "",
+        "contactName": "",
+        "externalDescription": "",
+        "sourceOrganization": "University of Arizona Libraries",
+        "version": ""
+      },
+      "manifestsRequired": [
+        "sha256"
+      ],
+      "manifestsAllowed": [
+        "md5",
+        "sha256"
+      ],
+      "tagManifestsRequired": [],
+      "tagManifestsAllowed": [
+        "md5",
+        "sha256"
+      ],
+      "tagFilesAllowed": [
+        "*"
+      ],
+      "tags": [
+        {
+          "id": "07fd77aa-215a-4f8e-aa59-d13499f918fb",
+          "tagFile": "bagit.txt",
+          "tagName": "BagIt-Version",
+          "required": true,
+          "values": [
+            "0.97",
+            "1.0"
+          ],
+          "defaultValue": "0.97",
+          "userValue": "",
+          "help": "Which version of the BagIt specification describes this bag's format?",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "91e09ae1-45c7-4929-adda-9e63193b0167",
+          "tagFile": "bagit.txt",
+          "tagName": "Tag-File-Character-Encoding",
+          "required": true,
+          "values": [],
+          "defaultValue": "UTF-8",
+          "userValue": "",
+          "help": "How are this bag's plain-text tag files encoded? (Hint: usually UTF-8)",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "8e47a3a2-0bcd-4c8f-848b-27a59e66664a",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bag-Count",
+          "required": true,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "8cea4830-1242-4606-8f98-d894c441592e",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bag-Group-Identifier",
+          "required": false,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "30aae724-7b80-4efe-a32e-20f3d9c65574",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bag-Size",
+          "required": true,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "3089bd15-9808-46ff-a599-53b78cc0a8ce",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bagging-Date",
+          "required": false,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "9fa678db-fc1e-46c4-b663-bf032ea5c1bd",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bagging-Software",
+          "required": false,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "12652b77-fcf0-457c-9b0f-92c388381489",
+          "tagFile": "bag-info.txt",
+          "tagName": "Contact-Email",
+          "required": true,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "e2b0cff4-9c49-4924-922d-35306b6bb7de",
+          "tagFile": "bag-info.txt",
+          "tagName": "Contact-Name",
+          "required": true,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "024c4512-5c15-408e-8920-9789e5e506be",
+          "tagFile": "bag-info.txt",
+          "tagName": "Contact-Phone",
+          "required": true,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "2f6ed5d8-e6a1-47b4-98b4-458b411cc3b9",
+          "tagFile": "bag-info.txt",
+          "tagName": "External-Description",
+          "required": true,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "205ac130-c181-4f05-b044-7cf660c3eb8a",
+          "tagFile": "bag-info.txt",
+          "tagName": "External-Identifier",
+          "required": true,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "80e10e00-a7e8-4f62-8291-31e371cdfb5a",
+          "tagFile": "bag-info.txt",
+          "tagName": "Internal-Sender-Description",
+          "required": false,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "3db25757-bddd-4e44-84a8-bd8d0d62518b",
+          "tagFile": "bag-info.txt",
+          "tagName": "Internal-Sender-Identifier",
+          "required": false,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "17699344-d01f-4b15-8f32-76e64ed9cd98",
+          "tagFile": "bag-info.txt",
+          "tagName": "Organization-Address",
+          "required": true,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "fec61599-75f3-45d4-9e1e-90675d750fc8",
+          "tagFile": "bag-info.txt",
+          "tagName": "Payload-Oxum",
+          "required": false,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "078b2a67-b388-40f4-9919-3f9b59a1ec92",
+          "tagFile": "bag-info.txt",
+          "tagName": "Source-Organization",
+          "required": true,
+          "values": [
+            "University of Arizona Libraries"
+          ],
+          "defaultValue": "University of Arizona Libraries",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "0bce7291-3181-4542-bd12-4c6d1ff03429",
+          "tagFile": "bag-info.txt",
+          "tagName": "Original-Media-Formats",
+          "required": false,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "cf25af7a-7750-4422-9cbb-dfb4108ee974",
+          "tagFile": "bag-info.txt",
+          "tagName": "File-Formats",
+          "required": false,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        }
+      ],
+      "serialization": "optional",
+      "baseProfileId": null,
+      "isBuiltIn": false,
+      "tarDirMustMatchName": false
+    }
+  ],
+  "questions": [],
+  "remoteRepositories": [],
+  "storageServices": []
+}
