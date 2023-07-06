@@ -309,6 +309,76 @@
           "isUserAddedFile": false,
           "isUserAddedTag": false,
           "wasAddedForJob": false
+        },
+        {
+          "id": "d39bce2a-9df5-44f0-92db-308b3b9232ed",
+          "tagFile": "aptrust-info.txt",
+          "tagName": "Access",
+          "required": true,
+          "values": [
+            "Consortia",
+            "Institution",
+            "Restricted"
+          ],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "Access rights for this bag describe who can see that it exists in the repository.",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "68587c56-fe5a-411d-a796-187f385868b3",
+          "tagFile": "aptrust-info.txt",
+          "tagName": "Description",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "The description of the bag that you want to appear in the APTrust registry.",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "131628c3-3ca2-4198-bd64-71e647645da8",
+          "tagFile": "aptrust-info.txt",
+          "tagName": "Storage-Option",
+          "required": true,
+          "values": [
+            "Standard",
+            "Glacier-OH",
+            "Glacier-OR",
+            "Glacier-VA",
+            "Glacier-Deep-OH",
+            "Glacier-Deep-OR",
+            "Glacier-Deep-VA",
+            "Wasabi-VA",
+            "Wasabi-OR"
+          ],
+          "defaultValue": "Standard",
+          "userValue": "",
+          "help": "How do you want this bag to be stored in APTrust? Standard = S3/Virginia + Glacier/Oregon. Glacier-OH = Glacier-only storage in Ohio. Glacier-OR = Glacier-only storage in Oregon. Glacier-VA = Glacier-only storage in Virginia. Standard storage includes regular 90-day fixity checks. Glacier-only storage is less expensive but excludes fixity checks. File in Glacier-only storage may take up to 24 hours longer to restore and excessive Glacier retrieval may incur additional fees",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "e09e5d97-5726-4823-b01e-5d2e95d4613d",
+          "tagFile": "aptrust-info.txt",
+          "tagName": "Title",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "The title or name of that describes this bag's contents.",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
         }
       ],
       "serialization": "optional",
