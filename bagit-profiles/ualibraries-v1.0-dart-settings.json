@@ -24,7 +24,7 @@
         "version": ""
       },
       "manifestsRequired": [
-        "sha256"
+        "md5"
       ],
       "manifestsAllowed": [
         "md5",
