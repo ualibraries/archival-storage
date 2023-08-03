@@ -10,9 +10,7 @@
         "0.97",
         "1.0"
       ],
-      "acceptSerialization": [
-        "application/tar"
-      ],
+      "acceptSerialization": false,
       "allowFetchTxt": true,
       "bagItProfileInfo": {
         "bagItProfileIdentifier": "https://example.com/profile.json",
