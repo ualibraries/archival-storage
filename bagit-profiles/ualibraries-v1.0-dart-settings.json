@@ -10,8 +10,8 @@
         "0.97",
         "1.0"
       ],
-      "acceptSerialization": false,
-      "allowFetchTxt": true,
+      "acceptSerialization": [],
+      "allowFetchTxt": false,
       "bagItProfileInfo": {
         "bagItProfileIdentifier": "https://raw.githubusercontent.com/ualibraries/archival-storage/main/bagit-profiles/ualibraries-v1.0-dart-settings.json",
         "bagItProfileVersion": "1.4.0",
@@ -28,7 +28,9 @@
         "md5",
         "sha256"
       ],
-      "tagManifestsRequired": [],
+      "tagManifestsRequired": [
+        "md5"
+      ],
       "tagManifestsAllowed": [
         "md5",
         "sha256"
@@ -320,7 +322,7 @@
             "Institution",
             "Restricted"
           ],
-          "defaultValue": "",
+          "defaultValue": "Institution",
           "userValue": "",
           "help": "Access rights for this bag describe who can see that it exists in the repository.",
           "isBuiltIn": false,
@@ -381,7 +383,7 @@
           "wasAddedForJob": false
         }
       ],
-      "serialization": "optional",
+      "serialization": "forbidden",
       "baseProfileId": null,
       "isBuiltIn": false,
       "tarDirMustMatchName": false
