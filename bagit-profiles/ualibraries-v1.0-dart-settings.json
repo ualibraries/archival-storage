@@ -285,34 +285,6 @@
           "wasAddedForJob": false
         },
         {
-          "id": "0bce7291-3181-4542-bd12-4c6d1ff03429",
-          "tagFile": "bag-info.txt",
-          "tagName": "Original-Media-Formats",
-          "required": false,
-          "values": [],
-          "defaultValue": null,
-          "userValue": "",
-          "help": "",
-          "isBuiltIn": false,
-          "isUserAddedFile": false,
-          "isUserAddedTag": false,
-          "wasAddedForJob": false
-        },
-        {
-          "id": "cf25af7a-7750-4422-9cbb-dfb4108ee974",
-          "tagFile": "bag-info.txt",
-          "tagName": "File-Formats",
-          "required": false,
-          "values": [],
-          "defaultValue": null,
-          "userValue": "",
-          "help": "",
-          "isBuiltIn": false,
-          "isUserAddedFile": false,
-          "isUserAddedTag": false,
-          "wasAddedForJob": false
-        },
-        {
           "id": "d39bce2a-9df5-44f0-92db-308b3b9232ed",
           "tagFile": "aptrust-info.txt",
           "tagName": "Access",
