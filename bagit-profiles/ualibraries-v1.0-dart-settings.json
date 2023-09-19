@@ -332,7 +332,7 @@
             "Wasabi-VA",
             "Wasabi-OR"
           ],
-          "defaultValue": "Standard",
+          "defaultValue": "",
           "userValue": "",
           "help": "How do you want this bag to be stored in APTrust? Standard = S3/Virginia + Glacier/Oregon. Glacier-OH = Glacier-only storage in Ohio. Glacier-OR = Glacier-only storage in Oregon. Glacier-VA = Glacier-only storage in Virginia. Standard storage includes regular 90-day fixity checks. Glacier-only storage is less expensive but excludes fixity checks. File in Glacier-only storage may take up to 24 hours longer to restore and excessive Glacier retrieval may incur additional fees",
           "isBuiltIn": false,
