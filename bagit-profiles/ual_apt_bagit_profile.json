@@ -1,0 +1,88 @@
+{
+    "BagIt-Profile-Info": {
+        "BagIt-Profile-Identifier": "https://raw.githubusercontent.com/ualibraries/archival-storage/main/bagit-profiles/ualibraries-v1.0-dart-settings.json",
+        "BagIt-Profile-Version": "1.4.0",
+        "Source-Organization": "University of Arizona Libraries",
+        "Contact-Name": "University of Arizona Libraries Digital Preservation",
+        "Contact-Email": "ual-digipres@list.arizona.edu",
+        "External-Description": "A DART BagIt profile for creating bags for the University of Arizona Libraries for APTrust",
+        "Version": "1.0"
+    },
+    "Bag-Info": {
+        "Source-Organization": {
+            "required": true,
+            "values": [
+                "University of Arizona Libraries"
+            ]
+        },
+        "Organization-Address": {
+            "required": true,
+            "values": [
+                "1510 E. University Blvd., Tucson, AZ 85721"
+            ]
+        },
+        "Contact-Name": {
+            "required": true
+        },
+        "Contact-Phone": {
+            "required": false
+        },
+        "Contact-Email": {
+            "required": true
+        },
+        "External-Description": {
+            "required": true
+        },
+        "External-Identifier": {
+            "required": true
+        },
+        "Bag-Size": {
+            "required": true
+        },
+        "Bag-Group-Identifier": {
+            "required": false
+        },
+        "Bag-Count": {
+            "required": false
+        },
+        "Internal-Sender-Identifier": {
+            "required": false
+        },
+        "Internal-Sender-Description": {
+            "required": false
+        },
+        "Bagging-Date": {
+            "required": true
+        },
+        "Payload-Oxum": {
+            "required": true
+        }
+    },
+    "Manifests-Allowed": [
+        "md5",
+        "sha256"
+    ],
+    "Manifests-Required": [
+        "md5"
+    ],
+    "Allow-Fetch.txt": false,
+    "Serialization": "forbidden",
+    "Accept-Serialization": [],
+    "Tag-Manifests-Required": [
+        "md5"
+    ],
+    "Tag-Files-Allowed": [
+        "*"
+    ],
+    "Tag-Files-Required": [
+        "aptrust-info.txt"
+    ],
+    "Tag-Manifests-Allowed": [
+        "md5",
+        "sha256"
+    ],
+    "Accept-BagIt-Version": [
+        "0.97",
+        "1.0"
+    ]
+}
